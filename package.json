@@ -9,11 +9,27 @@
     "type": "git",
     "url": "git+ssh://git@github.com/rasskaz-creator/ajs.git"
   },
+"publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rasskaz-creator/ajs/issues"
   },
   "homepage": "https://github.com/rasskaz-creator/ajs#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  }
 }
+
+  
